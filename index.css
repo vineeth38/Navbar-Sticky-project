@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+nav{ 
+  position: sticky;
+   background-color: black;
+   height:60px;
+   width:100%;
+   z-index: 1000;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 60px;
+  padding: 10px;
+}
+nav ul{
+  float:right;
+  margin-right: 20px;
+  position: sticky;
+}
+nav ul li{
+  display:inline-block;
+ /* line-height: 60px; */
+  margin: 0 5px;
+  
+}
+nav ul li a{
+  color:white;
+  font-size: 17px;
+}
+a:hover{
+ background: burlywood; 
+ transition: .5s;
+}
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  width:100%;
+}
+button{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
